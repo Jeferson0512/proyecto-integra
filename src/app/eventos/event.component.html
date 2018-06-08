@@ -5,10 +5,10 @@
   </a>
 
   <div class="content">
-    <a href="https://cheerup.theme-sphere.com/bold/blog/2016/05/15/my-new-yoga-pants/" class="post-title" title="A Look Inside The Work Abode">
+    <a [routerLink]="['../evento/', evento.id]" class="post-title" title="A Look Inside The Work Abode">
       {{evento.title_event | titlecase}} </a>
     <div class="post-meta post-meta-a">
-      <a href="https://cheerup.theme-sphere.com/bold/blog/2016/05/15/my-new-yoga-pants/" class="date-link">
+      <a href="" class="date-link">
         <time class="post-date" datetime="2016-05-15T04:38:11+00:00"> {{evento.fecha_event | date:'mediumDate'}} </time>
       </a>
     </div>

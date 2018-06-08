@@ -184,7 +184,7 @@
 
 
 .description-event{
-    margin: 5% 4%;
+    margin: 5% 2%;
     text-align: justify;
 }
 .fecha-event{
@@ -193,4 +193,16 @@
 .img-max{
     max-width: 700px;
     width: auto;
+    /* text-align: center; */
+    padding-left: 3%;
+    
+}
+@media (max-width: 360px){
+    .img-max{
+        max-width: 340px;
+        width: auto;
+        /* text-align: center; */
+        padding-left: 3%;
+        
+    }
 }
