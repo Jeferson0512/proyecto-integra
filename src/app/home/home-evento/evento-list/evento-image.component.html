@@ -1,0 +1,60 @@
+<!-- <image-evento [eventoImage]="eventoImage"></image-evento> -->
+
+          <br>
+          <br>
+          <br>
+<section class="eventos">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="title-section-noticia">
+        <div class="row row-group-noticia">
+
+          <div class="container">
+
+            <div class="post-top cf">
+              <span class="cat-label cf color">
+
+              </span>
+              <h1 class="post-title">{{eventoImage.title_event}}</h1>
+              <div class="post-meta post-meta-b the-post-meta">
+                <div class="below">
+                  <a href="" class="date-link">
+                    <time class="post-date fecha-event">{{eventoImage.fecha_event | date:'mediumDate'}}</time>
+                  </a>
+
+                </div>
+              </div>
+              <div class="post-share-b cf">
+                <a href="" class="cf service facebook" target="_blank" title="Share on Facebook">
+                  <i class="fab fa-facebook-f"></i>
+                  <span class="label">Share on Facebook</span>
+                </a>
+                <a href="" class="cf service twitter" target="_blank" title="Share on Twitter">
+                  <i class="fab fa-twitter"></i>
+                  <span class="label">Share on Twitter</span>
+                </a>
+              </div>
+
+            </div>
+          </div>
+          <header class="post-header cf">
+            <div class="featured">
+              <a href="" class="image-link">
+                  <!-- width="600" height="515" -->
+                <img src="http://18.228.37.198/img/evento/{{eventoImage.img_event}}"
+                  class="attachment-cheerup-main size-cheerup-main wp-post-image lazyloaded img-responsive img-max" alt="" title="Feeling of Love is Not Lost in Old Friends">
+              </a>
+
+              <p class="description-event">{{eventoImage.description_event}}</p>
+
+            </div>
+          </header>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 grupo-categoria">
+      <app-eventos></app-eventos>
+    </div>
+  </div>
+</section>

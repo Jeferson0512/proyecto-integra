@@ -1,0 +1,162 @@
+<div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0 center txt-title-fase">
+            GRUPO A
+          </h5>
+        </div>
+
+        <div id="collapseOne">
+          <div class="card-body">
+            <ul class="list-group" *ngFor="let paisGrupoA of paisGrupoA | async">
+              <li class="list-group-item">
+                <img class="img-circle" src="{{paisGrupoA.url_img}}" alt="" style="">
+                <h6 class="text-equipos">{{paisGrupoA.nombre_p}} <p class="text-number">{{paisGrupoA.puntos}}</p> </h6>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0 center txt-title-fase">
+            GRUPO B
+          </h5>
+        </div>
+        <div id="collapseTwo">
+          <div class="card-body">
+              <ul class="list-group" *ngFor="let paisGrupoB of paisGrupoB | async">
+                <li class="list-group-item">
+                  <img class="img-circle" src="{{paisGrupoB.url_img}}" alt="" style="">
+                  <h6 class="text-equipos">{{paisGrupoB.nombre_p}} <p class="text-number">{{paisGrupoB.puntos}}</p> </h6>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0 center txt-title-fase">
+            GRUPO C
+          </h5>
+        </div>
+        <div id="collapseThree">
+          <div class="card-body">
+              <ul class="list-group" *ngFor="let paisGrupoC of paisGrupoC | async">
+                <li class="list-group-item">
+                  <img class="img-circle" src="{{paisGrupoC.url_img}}" alt="" style="">
+                  <h6 class="text-equipos">{{paisGrupoC.nombre_p}} <p class="text-number">{{paisGrupoC.puntos}}</p> </h6>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0 center txt-title-fase">
+            GRUPO D
+          </h5>
+        </div>
+
+        <div id="collapseFour">
+          <div class="card-body">
+              <ul class="list-group" *ngFor="let paisGrupoD of paisGrupoD | async">
+                <li class="list-group-item">
+                  <img class="img-circle" src="{{paisGrupoD.url_img}}" alt="" style="">
+                  <h6 class="text-equipos">{{paisGrupoD.nombre_p}} <p class="text-number">{{paisGrupoD.puntos}}</p> </h6>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0 center txt-title-fase">
+            GRUPO E
+          </h5>
+        </div>
+        <div id="collapseFive">
+          <div class="card-body">
+              <ul class="list-group" *ngFor="let paisGrupoE of paisGrupoE | async">
+                <li class="list-group-item">
+                  <img class="img-circle" src="{{paisGrupoE.url_img}}" alt="" style="">
+                  <h6 class="text-equipos">{{paisGrupoE.nombre_p}} <p class="text-number">{{paisGrupoE.puntos}}</p> </h6>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0 center txt-title-fase">
+            GRUPO F
+          </h5>
+        </div>
+        <div id="collapseSix">
+          <div class="card-body">
+              <ul class="list-group" *ngFor="let paisGrupoF of paisGrupoF | async">
+                <li class="list-group-item">
+                  <img class="img-circle" src="{{paisGrupoF.url_img}}" alt="" style="">
+                  <h6 class="text-equipos">{{paisGrupoF.nombre_p}} <p class="text-number">{{paisGrupoF.puntos}}</p> </h6>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0 center txt-title-fase">
+            GRUPO G
+          </h5>
+        </div>
+        <div id="collapseFive">
+          <div class="card-body">
+              <ul class="list-group" *ngFor="let paisGrupoG of paisGrupoG | async">
+                <li class="list-group-item">
+                  <img class="img-circle" src="{{paisGrupoG.url_img}}" alt="" style="">
+                  <h6 class="text-equipos">{{paisGrupoG.nombre_p}} <p class="text-number">{{paisGrupoG.puntos}}</p> </h6>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0 center txt-title-fase">
+            GRUPO H
+          </h5>
+        </div>
+        <div id="collapseSix">
+          <div class="card-body">
+              <ul class="list-group" *ngFor="let paisGrupoH of paisGrupoH | async">
+                <li class="list-group-item">
+                  <img class="img-circle" src="{{paisGrupoH.url_img}}" alt="" style="">
+                  <h6 class="text-equipos">{{paisGrupoH.nombre_p}} <p class="text-number">{{paisGrupoH.puntos}}</p> </h6>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

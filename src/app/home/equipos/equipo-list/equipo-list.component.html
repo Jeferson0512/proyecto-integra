@@ -1,0 +1,12 @@
+<div class="row" style="margin: 5% 1%;">
+  <!-- <app-equipo-image [image]="image"></app-equipo-image> -->
+  <div class="col-md-8">
+        <!-- let pais of pais | async" [pais]="pais" -->
+      <app-equipo-image *ngFor="let paisAnfitrion of paisAnfitrion | async" [paisAnfitrion]="paisAnfitrion"
+       [paisAfrica]="paisAfrica" [paisSudamerica]="paisSudamerica" [paisAsia]="paisAsia" 
+       [paisConcacaf]="paisConcacaf" [paisEuropa]="paisEuropa"></app-equipo-image>
+  </div>
+  <div class="col-md-4">
+    <app-eventos></app-eventos>
+  </div>
+</div>

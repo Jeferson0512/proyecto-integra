@@ -1,0 +1,16 @@
+<div class="noticia">
+  <div class="card-group">
+    <div class="card">
+      <img src="http://18.228.37.198/img/evento/{{eventoAll.img_event}}" class="card-img-top" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">
+          <a [routerLink]="['../evento/', eventoAll.id]">{{eventoAll.title_event}} </a>
+        </h5>
+        <p class="card-text"> {{ eventoAll.description_event | slice:0:150 }}[...] </p>
+      </div>
+      <!-- <div class="card-body">
+        <a href="#" class="card-link">{{evento.}}</a>
+      </div> -->
+    </div>
+  </div>
+</div>

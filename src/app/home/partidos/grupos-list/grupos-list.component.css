@@ -1,0 +1,53 @@
+.center {
+    text-align: center;
+  }
+  
+  .txt-title-fase {
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /* CARDS DE GRUPOS */
+  
+  .card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 45px;
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .list-group-item {
+    border-radius: 50px;
+    margin-bottom: 5%;
+  }
+  
+  /* CARD DE EQUIPOS DE LOS GRUPOS IMAGEN y TEXTO */
+  
+  .img-circle {
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    margin-top: -2%;
+    position: absolute;
+  }
+  .text-equipos {
+    font-size: 20px;
+    margin: 1%;
+    font-weight: 400;
+    font-family: unset;
+    margin-left: 25%;
+  }
+  .text-number{
+      position: absolute;
+      padding: 0% 2%;
+      margin-top: -6.5%;
+      margin-left: 50%;
+      color: #bfc6cd;
+      background-color: #fff;
+      border: 1.5px solid #e1e1e1;
+  }

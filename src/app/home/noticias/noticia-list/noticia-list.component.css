@@ -1,0 +1,23 @@
+/* .card-group{
+    margin: 4%;
+    padding: 4%;
+    max-width: 370px;
+}*/
+/* .card{
+    height: 531px;
+    width: 20rem;
+}  */
+.noticia{
+    /* margin-bottom: 25px; */
+}
+
+@media (min-width: 1130px){
+    .card{
+        /* width: 20rem; */
+    } 
+    .card-group{
+        margin: 4%;
+        padding: 4%;
+        max-width: 400px;
+    }
+}

@@ -1,0 +1,14 @@
+<div class="noticia">
+  <div class="card-group">
+    <div class="card">
+      <img class="card-img-top" src="http://18.228.37.198/img/noticia/{{noticia.imagen}}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title"> <a [routerLink]="['../noticia', noticia.id]"> {{noticia.nombre_n}} </a> </h5>
+        <p class="card-text"> {{ noticia.info_n | slice:0:150 }}[...] </p>
+      </div>
+      <div class="card-body">
+        <a href="#" class="card-link">{{noticia.nombre_p}}</a>
+      </div>
+    </div>
+  </div>
+</div>

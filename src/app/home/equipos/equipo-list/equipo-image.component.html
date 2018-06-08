@@ -1,0 +1,115 @@
+<div class="row row-group">
+  <div class="anfitrion">
+    <div class="div-anfitrion">
+      <h1 class="title-anfitrion title-group">
+        País Anfitrión
+      </h1>
+    </div>
+    <div class="card-group">
+      <div class="card">
+        <img class="card-img-top" src="{{paisAnfitrion.url_img}}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"> {{paisAnfitrion.nombre_p}} </h5>
+          <p class="card-text"> {{paisAnfitrion.description}} </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<section class="africa-section">
+  <div class="div-africa">
+    <h1 class="title-africa title-group">
+      AFRICA
+    </h1>
+  </div>
+  <div class="row row-group">
+    <div class="africa card-group" *ngFor="let paisAfrica of paisAfrica | async">
+      <div class="card">
+        <img class="card-img-top" src="{{paisAfrica.url_img}}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"> {{paisAfrica.nombre_p}} </h5>
+          <p class="card-text"> {{paisAfrica.description}} </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sudamerica-section">
+  <div class="div-sudamerica">
+    <h1 class="title-sudamerica title-group">
+      CONMEBOL
+    </h1>
+  </div>
+  <div class="row row-group">
+    <div class="Sudamerica card-group" *ngFor="let paisSudamerica of paisSudamerica | async">
+      <div class="card">
+        <img class="card-img-top" src="{{paisSudamerica.url_img}}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"> {{paisSudamerica.nombre_p}} </h5>
+          <p class="card-text"> {{paisSudamerica.description}} </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="asia-section">
+  <div class="div-asia">
+    <h1 class="title-asia title-group">
+      ASIA
+    </h1>
+  </div>
+  <div class="row row-group">
+    <div class="Asia card-group" *ngFor="let paisAsia of paisAsia | async">
+      <div class="card">
+        <img class="card-img-top" src="{{paisAsia.url_img}}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"> {{paisAsia.nombre_p}} </h5>
+          <p class="card-text"> {{paisAsia.description}} </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="concacaf-section">
+  <div class="div-concacaf">
+    <h1 class="title-concacaf title-group">
+      CONCACAF
+    </h1>
+  </div>
+  <div class="row row-group">
+    <div class="Concacaf card-group" *ngFor="let paisConcacaf of paisConcacaf | async">
+      <div class="card">
+        <img class="card-img-top" src="{{paisConcacaf.url_img}}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"> {{paisConcacaf.nombre_p}} </h5>
+          <p class="card-text"> {{paisConcacaf.description}} </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="europa-section">
+  <div class="div-europa">
+    <h1 class="title-europa title-group">
+      UEFA
+    </h1>
+  </div>
+  <div class="row row-group">
+    <div class="Europa card-group" *ngFor="let paisEuropa of paisEuropa | async">
+      <div class="card">
+        <img class="card-img-top" src="{{paisEuropa.url_img}}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"> {{paisEuropa.nombre_p}} </h5>
+          <p class="card-text"> {{paisEuropa.description}} </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- https://www.youtube.com/watch?v=kZe-cK-K-a8 -->

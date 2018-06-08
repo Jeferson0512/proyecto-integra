@@ -1,0 +1,77 @@
+section.partidos-navbar {
+  background: url("C:/Users/Usuario/Pictures/Proyect/athletes-audience-ball-270085.jpg") no-repeat center center fixed;
+  height: 500px;
+  max-height: 400px;
+}
+
+h1.title-partidos {
+  cursor: default;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100px;
+  margin: 12% 0;
+  display: block;
+  -webkit-animation: bounce .3s ease infinite alternate;
+  font-family: 'Erica One', cursive;
+  font-size: 80px;
+  font-weight: 900;
+  color: #e69494;
+  text-align: center;
+  line-height: 100px;
+  text-shadow: 0 1px 0 #CCC, 0 2px 0 #CCC, 0 3px 0 #CCC, 0 4px 0 #CCC, 0 5px 0 #CCC, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.94);
+}
+
+h1.title-partidos-2 {
+  font-size: 50px;
+  font-weight: 500;
+  padding: 7%;
+}
+
+/* ANIMATION */
+
+@-webkit-keyframes bounce {
+  100% {
+    top: -30px;
+    text-shadow: 0 1px 0 #CCC, 0 2px 0 #CCC, 0 3px 0 #CCC, 0 4px 0 #CCC, 0 5px 0 #CCC, 0 6px 0 #CCC, 0 7px 0 #CCC, 0 8px 0 #CCC, 0 9px 0 #CCC, 0 30px 30px rgba(0, 0, 0, .3);
+  }
+}
+
+/* GRUPOS DEL MUNDIAL */
+
+.grupos-mundial {
+  padding: 5% 3%;
+}
+
+
+
+.grupo-categoria{
+  padding: 5% 3%;
+}
+
+@media (max-width: 1125px){
+    .text-number{
+        margin-top: -8%;
+    }
+}
+@media (max-width: 775px){
+    h1.title-partidos{
+        font-size: 50px;
+        margin: 20% 0%;
+    }
+    h1.title-partidos-2{
+        font-size: 40px;
+    }
+}
+@media (max-width: 500px){
+    h1.title-partidos{
+        font-size: 35px;
+        margin: 40% 0%;
+    }
+    h1.title-partidos-2{
+        font-size: 30px;
+        padding: 15%;
+    }
+}

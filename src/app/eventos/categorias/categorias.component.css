@@ -1,0 +1,33 @@
+li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 12px 0;
+    border-bottom: 1px solid #ebebeb;
+    font-size: 13px;
+    line-height: 1.8;
+}
+a {
+    font-family: "Open Sans",sans-serif;
+    letter-spacing: 0;
+    -webkit-font-smoothing: initial;
+    margin-right: auto;
+    color: #454545;
+    /* font-family: "Merriweather",Georgia,serif; */
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: -.025em;
+}
+a:before {
+    content: "";
+    float: left;
+    margin-top: 9px;
+    margin-right: 12px;
+    width: 6px;
+    height: 6px;
+    border: 1px solid #318892;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
